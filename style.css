@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+	background-color: tan;
+	text-align: center;
+}
+
+.item {
+	padding: 1rem;
+	background-color: #fff;
+	margin: 1rem;
+	cursor: pointer;
+}
+
+.item.dragging {
+	opacity: .5;
+	cursor: pointer;
+}
